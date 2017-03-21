@@ -1,0 +1,204 @@
+div .border {
+
+    width:300px;
+    margin: auto;
+    margin-top: 55px;
+    background: #3e474F;
+    box-shadow: 0 .5em 1em #111;
+    border-radius: 20px;
+    /*opacity: 0.6;
+    filter: alpha(opacity=60);*/
+  }
+  div .border2 {
+    position: relative;
+    width:150px;
+    padding-right: 25px;
+    background: #3e474F;
+    box-shadow: 0 .5em 1em #111;
+     border-radius: 25px;
+
+  }
+  h3{
+
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 29px;
+    color: aliceblue;
+     text-shadow: 2px 2px 4px #000000;
+    text-decoration-style: solid;
+    text-shadow: black;
+    box-shadow: 0 .5em 1em #111;
+    border-radius: 20px;
+
+
+
+}
+
+blockquote  {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 24px;
+    color: aqua;
+    text-shadow:2px 2px 4px black;
+    display: block;
+    /*text-align: left;*/
+    background-color: ;
+    letter-spacing: 3px;
+
+
+}
+
+  #accordion section p {
+    display: none;
+    text-align: center;
+
+
+ }
+
+ #accordion section a {
+   color: #788188;
+   font-family: 'Alfa Slab One', cursive;
+    /*text-decoration: underline;*/
+    text-shadow: 2px 2px 4px #000000;
+ }
+  #accordion section a:hover {
+  /*text-decoration: underline;*/
+
+
+ }
+
+  #accordion section:target p {
+  display: block;
+  font-family: 'Alfa Slab One', cursive;
+  }
+
+  .displaytheinfo {
+  display: block;
+  font-family: 'Alfa Slab One', cursive;
+  }
+
+
+  .skills {
+
+
+  /*text-decoration: underline;*/
+  text-align: left;yy
+  padding-top: 195px;
+  padding-left: 300px;
+
+
+
+  }
+  .skills1 {
+    text-align: left;
+    padding-top: 0px;
+    padding-right: 310px;
+
+
+  }
+
+
+
+
+
+  /*this is my Flex start*/
+
+  .container-1 {
+    /*display: flex;*/
+    justify-content: space-between;
+
+
+  }
+  /*.container-2 {
+  display: flex;
+  justify-content: space-between;
+
+  }*/
+
+
+  .container-1 div {
+    border:  ;
+    padding: 10px;
+    border-radius: 20px;
+    /*box-shadow: 0 .5em 1em #111;*/
+
+  }
+
+  .box-1{
+    flex: 1;
+    order: 1;
+
+
+  }
+
+
+
+  /*.box-2 {
+    flex: 1;
+  order: 1;
+
+
+
+  }*/
+
+
+  .container-1-box {
+    width: 20%;
+
+
+    }
+
+  .aboutMe{
+    font-size: 24px;
+    color: r	#DC143C;
+
+  }
+
+
+  input[type=text], select, textarea {
+      background-color: white;
+      opacity: 0.9;
+      filter: alpha(opacity=10);
+      width: 15%;
+      /*padding: 5px;*/
+      border: ;
+      border-radius: 3px;
+      box-sizing: border-box;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      resize: vertical;
+      flex: 1;
+      order: 1;
+  }
+
+  input[type=submit] {
+      background-color: red;
+      color: ;
+      /*padding: 7px 15px;*/
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+      background-color: #45a049;
+  }
+
+  .container {
+      /*border-radius: 5px;*/
+      background-color: ;
+      padding: 5px;
+      border:none;
+  }
+
+
+  #footer {
+
+    height: 40px;
+    width: 100%;
+    background-color: ;
+    position: absolute;
+    left: opx
+
+
+
+
+  }

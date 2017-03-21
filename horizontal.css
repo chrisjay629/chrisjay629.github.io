@@ -1,0 +1,172 @@
+html,
+body, .wrap{
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+
+}
+.social li {
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 4.25em;
+  font-size: .667em;
+  font-weight: bold;
+  padding:  0 1em;
+
+
+}
+#logo{
+float: left;
+color: #788188;
+cursor: pointer;
+display: inline-block;
+line-height: 4.25em;
+font-size: .967em;
+font-weight: bold;
+padding:  0 1em;
+/*font-family: 'Dancing Script', cursive;*/
+font-family: 'Great Vibes', cursive;
+padding-right: 70%;
+text-shadow: 2px 2px 4px #000000;
+}
+
+
+.ff{
+      filter: grayscale(100%);  height: 5%;
+      width: 5%;
+      text-shadow: ;
+}
+
+ul li:hover{
+    background:  ;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+}
+.wrap{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background: #120103;
+    /*color: #fff;*/
+    text-align: center;
+
+}
+h1{
+
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 3px;
+    font-size: 23px;
+        color: aliceblue;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration-style: solid;
+    text-shadow: black;
+    box-shadow: 0 .5em 1em #111;
+    border-radius: 20px;
+
+}
+
+header {
+    background: #3e474F;
+    box-shadow: 0 .5em 1em #111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+
+}
+header label {
+    color: #788188;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 4.25em;
+    font-size: .867em;
+    font-weight: bold;
+    padding:  0 1em;
+    font-size: 1zpx;
+    border-radius: 15px;
+    background: #3e474F;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+
+header label:hover {
+    background: #2e353b;
+    /*text-shadow: 2px 2px 4px #000000;*/
+
+}
+
+
+#footer {
+    background: ;
+    box-shadow:20px 20px 50px 20px black;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;*/
+    float: right;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-color: #120103;
+    background-position: 50% 50%;
+    background-size: cover;
+    transition: left 0s .75s;
+}
+.brain{
+    width: 155px;
+    height: 155px;
+    background-color: white;
+    opacity: 0.5;
+    filter: alpha(opacity=10);
+
+}
+
+  .slide-one {background-image: url('https://scontent.xx.fbcdn.net/v/t31.0-8/17159180_414118565615506_8333262723196740914_o.jpg?oh=6f5d589105b69cdd214e59dbb9d930ea&oe=5964F810');}
+
+  .slide-two {background-image: url('http://cdn.stupiddope.com/wp-content/uploads/2014/10/hopare-mural-paris-01.jpg');}
+
+  .slide-three {background-image: url('http://myzone.travelsofadam.netdna-cdn.com/wp-content/uploads/2013/09/street-art-antwerp.jpg?x44048');}
+
+  .slide-four {background-image: url('https://d36tnp772eyphs.cloudfront.net/blogs/1/2014/04/6-1-940x529.jpg');}
+
+
+
+[id^="slide"]:checked + .slide  {
+  left:0;
+  z-index: 100;
+  left: 0;
+  z-index: 100;
+  transition: left .65s ease-out;
+
+}
+
+.slide h1  {
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform .5 .5s, opacity .5s;
+
+
+}
+
+[id^="slide"]:checked + .slide h1  {
+  opacity: 1;
+  transform: translate(0);
+  transition: all .5s .5s;
+  background-color: ;
+
+
+
+}

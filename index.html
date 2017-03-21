@@ -1,0 +1,179 @@
+  <!DOCTYPE html>
+  <html lang="en">
+      <head>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <title>css slide</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- <link rel="stylesheet" href="https://code.jquery.com/jquery-3.1.1.min.js"> -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="horizontal.css">
+      <link rel="stylesheet" href="accordion.css">
+      <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body>
+  <!-- <div class="container-fluid"> -->
+  
+    <div class="wrap">
+    <header>
+
+        <a href="index.html" id="logo">Chris Jauregui</a>
+        <label class="b" for="slide-1-trigger">About Me</label>
+        <label class="b" for="slide-2-trigger">Skills</label>
+        <label class="b" for="slide-3-trigger">Future</label>
+        <label class="b"for="slide-4-trigger">Contact</label>
+
+    </header>
+
+
+
+
+      <input id="slide-1-trigger" type="radio" name="slides" checked="slide-one">
+      <section class="slide slide-one">
+    <!-- my little clock  set function make sure to use blockquotearound div also fill in clock time or else nothing will display.... -->
+        <blockquote><div class="clock" id="clockid">Mon Mar 20 2017 17:18:36</div> </blockquote>
+
+          <h1>Work like you don't need the money. Love like you've never been hurt. Dance like nobody's watching.<br>
+          Satchel Paige <main id="accordion">
+        <section id="item1">
+          <a href="#item1">
+            <h2 class="about">
+              <div class="border">
+                ABOUT ME
+              </div>
+            </h2>
+          </a>
+          <p class="p1">
+
+          </p>
+          <h3>
+          <div class="container-1">
+          <div class="box-1">
+              <p>Well hello, my name is Christopher Lee Jauregui!  I am currently a student at General Assembly in Austin Tx, and enrolled in the WDI Web development program. I have a passion for technology in all shapes in forms and hope to merge all my technical knowledge of Sound Engineering ,Web Development,Business Management, and Mobile Applications into a profitable business one day.</p>
+          </div>
+          </div>
+          </h3>
+          </section>
+          </h1>
+
+        <div id="footer">
+
+            <!-- bootstrap attempt -->
+          <!-- <div class="row">
+     <div class="col-sm-4" ><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/facebook-logo-square.png" alt=""></div>
+     <div class="col-sm-4" ><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/Instragram-logo-square.png" alt=""></div>
+     <div class="col-sm-4" ><img class="ff"src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-silver-icons-social-media-logos/099434-glossy-silver-icon-social-media-logos-linkedin-logo-square2.png" alt=""></div>
+   </div> -->
+    <ul class="social">
+      <li class="f"><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/facebook-logo-square.png" alt=""></li>
+        <li><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/Instragram-logo-square.png" alt=""></li>
+        <li><img class="ff"src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-silver-icons-social-media-logos/099434-glossy-silver-icon-social-media-logos-linkedin-logo-square2.png" alt=""></li>
+    </ul>
+    </div>
+
+
+        <!-- <img url="http://media-cache-ak0.pinimg.com/736x/02/3c/98/023c98896de3b8a6da2893fb20f6d57a.jpg" alt=""> -->
+      </section>
+      <input id="slide-2-trigger" type="radio" name="slides">
+      <section class="slide slide-two">
+        <h1>
+          Keep your face always toward the sunshine - and shadows will fall behind you.<br>
+          Walt Whitman<main id="accordion">
+          <section id="item2">
+          <a href="#item2"><h2 class="about"><div class="border">&nbsp;SKILLS!&nbsp;</div></h2></a>
+          <p class="skills1">
+          <p>Sound Engineering<br>
+          Web Applications<br>
+          HTML<br>
+          CSS<br>
+          JAVASCRIPT/JQuery<br>
+          Buisness Management<br>
+          </p>
+          </p>
+
+          </section></h1>
+        <!-- <img url="http://media-cache-ak0.pinimg.com/736x/02/3c/98/023c98896de3b8a6da2893fb20f6d57a.jpg" alt=""> -->
+        <div id="footer">
+        <ul class="social">
+          <li class="f"><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/facebook-logo-square.png" alt=""></li>
+          <li><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/Instragram-logo-square.png" alt=""></li>
+          <li><img class="ff"src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-silver-icons-social-media-logos/099434-glossy-silver-icon-social-media-logos-linkedin-logo-square2.png" alt=""></li>
+        </ul>
+        </div>
+      </section>
+        <input id="slide-3-trigger" type="radio" name="slides">
+        <section class="slide slide-three">
+        <h1>No act of kindness, no matter how small, is ever wasted.
+          <br>
+          Aesop<main id="accordion">
+          <section id="item3">
+          <a href="#item3"><h2 class="future"><div class="border">FUTURE</div></h2></a>
+          <p class="future1">To Take Over The World!!!<br><img class="brain" src="http://2.bp.blogspot.com/-xDNDNJHqqqo/T9gpUsreJDI/AAAAAAAAAWc/HBB_P9vQzgo/s400/theBrain.jpg" alt=""></p>
+
+        </section></h1>
+          <!-- <img url="http://media-cache-ak0.pinimg.com/736x/02/3c/98/023c98896de3b8a6da2893fb20f6d57a.jpg" alt=""> -->
+        <div id="footer">
+        <ul class="social">
+              <li class="f"><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/facebook-logo-square.png" alt=""></li>
+              <li><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/Instragram-logo-square.png" alt=""></li>
+              <li><img class="ff"src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-silver-icons-social-media-logos/099434-glossy-silver-icon-social-media-logos-linkedin-logo-square2.png" alt=""></li>
+        </ul>
+        </div>
+      </section>
+        <input id="slide-4-trigger" type="radio" name="slides">
+      <section class="slide slide-four">
+        <h1>“Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.”
+        <br>Dr. Seuss<main id="accordion">
+      <section id="item4">
+        <a href="#item4"><h2 class="end"><div class="border">CONTACT</div></h2></a>
+        <p class="end1"></p>
+      <div class="container-2"
+    <form action="/action_page.php">
+      <label for="fname"> Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="">
+
+      <label for="lname">Email</label>
+      <input type="text" id="lname" name="lastname" placeholder="">
+
+              <br>
+
+    <label for="subject">Subject</label>
+    <input type="text" id="subject" name="subject" placeholder="" style="height:30px"></input>
+
+    <input type="submit" value="Submit">
+    </form>
+    </div>
+
+    </section></h1>
+        <!-- <img url="http://media-cache-ak0.pinimg.com/736x/02/3c/98/023c98896de3b8a6da2893fb20f6d57a.jpg" alt=""> -->
+    <div id="footer">
+      <ul class="social">
+        <li class="f"><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/facebook-logo-square.png" alt=""></li>
+        <li><img class="ff"src="http://www.nwacsports.org/images/template/footer%20logos/Instragram-logo-square.png" alt=""></li>
+        <li><img class="ff"src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-silver-icons-social-media-logos/099434-glossy-silver-icon-social-media-logos-linkedin-logo-square2.png" alt=""></li>
+      </ul>
+      </div>
+      </section>
+
+
+      </div>
+      </main>
+
+
+      <!-- <script
+     src="https://code.jquery.com/jquery-3.1.1.min.js"
+     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+     crossorigin="anonymous"></script> -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+      <script src="jquery-3.2.0.slim.js"></script>
+      <script src="main.js"></script>
+    </div>
+
+      </div>
+    </body>
+    </html>
